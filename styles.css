@@ -1,0 +1,250 @@
+@font-face {
+  src: url("./assets/fonts/fa-brands-400.ttf");
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  text-align: center;
+  color: #c8c9c9ad;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f2f6f7;
+  font-family: " Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li,
+a {
+  color: #c8c9c9ad;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  font-size: smaller;
+}
+
+header {
+  padding: 5vh 2vh 2vh;
+  height: fit-content;
+  background-color: #2aa6d1;
+}
+
+main {
+  background-color: whitesmoke;
+  color: #c9764b;
+  margin: 2vh 0;
+}
+
+footer {
+  background-color: #01162b;
+  padding: 3vh 2vh 0.2rem;
+  font-size: x-small;
+}
+
+footer p {
+  text-align: center;
+  font-size: x-small;
+  width: 80%;
+  font-size: .6rem;
+  margin: 0 auto;
+}
+
+p.copyright {
+  font-size: .5rem;
+  margin: .3rem auto;
+  text-align: center;
+}
+
+.heading {
+  font-size: medium;
+  color: #d12a54ea;
+  margin: 2vh;
+}
+
+.social-icons ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30vw;
+  margin: 2vh auto;
+}
+
+.brief-intro {
+  line-height: 1.5;
+  font-size: small;
+  width: 80vw;
+  margin: 1vh auto;
+}
+
+.more-about {
+  color: #e6b2df;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20vh;
+  margin: 0 auto;
+}
+
+button {
+
+  border: none;
+  background-color: #d1c92a;
+  padding: 0.8em;
+  border-radius: 0.3em;
+  margin-right: 0.4em;
+  font-size: small;
+}
+
+img.profile-pic {
+  width: 15vh;
+  height: auto;
+  background-color: #d1c92a;
+  border-radius: 100%;
+}
+
+.image-box {
+  width: 80%;
+  height: 15rem;
+  background-color: #01162b;
+  margin: 0 auto;
+  object-fit: cover;
+  border: none;
+  object-position: 0 -10rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: right;
+}
+
+
+.menu-bar .icon-bar {
+  fill: #f2f6f7a2;
+  width: 4vw;
+  cursor: pointer;
+  height: auto;
+}
+
+.menu-bar {
+  width: 100%;
+  display: block;
+  text-align: right;
+}
+
+.nav-item-disable {
+  display: none;
+}
+
+
+.nav-list-item {
+  text-align: center;
+  width: 100%;
+  margin: .6vw 0;
+  padding: .4rem;
+  text-transform: capitalize;
+  background-color: rgba(6, 191, 216, 0.349);
+
+}
+
+.nav-list-item:hover {
+  background-color: #121d20bb;
+}
+
+.nav-list-item:hover a {
+  color: white;
+}
+
+.skill-set {
+  width: 100vw;
+  height: fit-content();
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15vw, 1fr));
+  gap: .4rem;
+  padding: 2vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.skill-set span {
+  background-color: teal;
+  padding: .3rem;
+  border-radius: 1vw;
+  font-size: small;
+  border: none;
+  outline: none;
+}
+
+.project-card {
+  margin: 1.5rem 0;
+}
+
+.p-title {
+  width: 80%;
+  text-align: left;
+  margin: 1rem auto .5rem;
+  font-weight: normal;
+  font-size: large;
+}
+
+.p-about {
+  line-height: 1.4;
+  text-align: left;
+  text-indent: 1rem;
+  font-size: medium;
+  margin: 1rem auto;
+  word-wrap: break-word;
+  width: 80%;
+
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: fit-content;
+  margin: 2vw auto;
+  text-align: left;
+}
+
+.field {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin: .2rem 0;
+  align-items: center;
+}
+
+.field span {
+  font-size: .6rem;
+  width: 20%;
+  margin-right: 1rem;
+}
+
+.field input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: wheat;
+  border-bottom: 1px solid rgb(236, 227, 227);
+}
+
+.field :not(:first-child){
+  color: #d1c92a;
+  padding: .5rem;
+}
+
+
+.field .submit {
+  border: none;
+  background-color: teal;
+padding: .5rem;
+width: 100%;
+margin-top: .3rem;
+border-radius: .2rem;
+}
